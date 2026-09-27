@@ -1,0 +1,7 @@
+torch>=2.3
+numpy
+scipy
+matplotlib
+seaborn
+jupyter
+wandb        # optional, only for the weight sweep

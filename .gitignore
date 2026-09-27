@@ -1,0 +1,19 @@
+# Data (hosted externally, see data/README.md)
+data/*
+!data/README.md
+
+# Generated outputs
+results/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Logging
+wandb/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

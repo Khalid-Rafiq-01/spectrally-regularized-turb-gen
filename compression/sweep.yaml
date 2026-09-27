@@ -1,0 +1,23 @@
+# Bayesian sweep over zone weights. From the repository root:
+#   wandb sweep vae/sweep.yaml
+#   wandb agent <entity>/LatentFM_VAE/<sweep_id>
+program: vae/train_vae.py
+project: LatentFM_VAE
+method: bayes
+metric:
+  name: val_total
+  goal: minimize
+command:
+  - ${env}
+  - python
+  - -m
+  - compression.train_vae
+  - --wandb
+  - ${args}
+parameters:
+  w_ir:
+    values: [5e-4, 1e-3]
+  w_do:
+    values: [1e-3, 4e-3, 6e-3]
+  w_dd:
+    values: [6e-3, 1.2e-2, 1.8e-2]
