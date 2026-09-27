@@ -7,8 +7,8 @@ University of Nevada, Reno
 
 **AI4Physics Workshop · ICML 2026 · Seoul**
 
-[![Paper](https://img.shields.io/badge/Paper-AI4Physics%20%40%20ICML%202026-b31b1b)](PAPER_LINK)
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b)](ARXIV_LINK)
+[![Paper](https://img.shields.io/badge/Paper-AI4Physics%20%40%20ICML%202026-b31b1b)](https://openreview.net/forum?id=MEZ1otYgXS)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.11691-b31b1b)](https://arxiv.org/abs/2606.11691)
 [![Data](https://img.shields.io/badge/Data-Zenodo-1682D4)](DATASET_LINK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -123,8 +123,8 @@ To sample, we integrate $\mathrm{d}z/\mathrm{d}\tau = v_\theta(z,\tau)$ from $z_
 ## Getting started
 
 ```bash
-git clone https://github.com/<USER>/<REPO>.git
-cd <REPO>
+git clone https://github.com/Khalid-Rafiq-01/spectrally-regularized-turb-gen.git
+cd spectrally-regularized-turb-gen
 pip install -r requirements.txt
 ```
 
